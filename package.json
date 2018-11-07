@@ -2,12 +2,21 @@
   "name": "mern-simplesetup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": "Joel Bernasky",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxb04/mern-simplesetup.git"
+  },
+  "main": "template.js",
   "scripts": {
     "development": "nodemon",
-    "build": "webpack --config webpack.config.client.production.js && webpack.config.server.js",
-    "start": "NODE_ENV=produtcion node ./dist/server.generated.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
+  },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.8.0"
   },
   "dependencies": {
     "express": "4.16.3",
@@ -29,12 +38,6 @@
     "webpack-hot-middleware": "2.22.1",
     "webpack-node-externals": "1.7.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jxb04/mern-simplesetup.git"
-  },
-  "author": "Joel Bernasky",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jxb04/mern-simplesetup/issues"
   },
