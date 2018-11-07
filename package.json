@@ -6,7 +6,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jxb04/mern-simplesetup.git"
+    "url": "https://github.com/jxb04/mern-simplesetup.git"
   },
   "main": "template.js",
   "scripts": {
