@@ -2,7 +2,7 @@
   "name": "mern-simplesetup",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "template.js",
   "scripts": {
     "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack.config.server.js",
