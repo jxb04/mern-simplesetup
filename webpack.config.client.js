@@ -31,3 +31,5 @@ const config = {
                 new webpack.NoEmitOnErrorsPlugin()
             ] 
 }
+
+module.exports = config
