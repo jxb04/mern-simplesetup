@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "express": "4.16.3",
-    "mongodb": "3.0.7",
+    "mongodb": "^3.5.5",
     "react": "16.3.2",
-    "react-dom": "16.3.2",
+    "react-dom": "^16.13.1",
     "react-hot-loader": "4.1.2"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
     "nodemon": "1.17.3",
-    "webpack": "4.6.0",
+    "webpack": "^4.42.1",
     "webpack-cli": "2.0.15",
     "webpack-dev-middleware": "3.1.2",
     "webpack-hot-middleware": "2.22.1",
